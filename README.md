@@ -37,4 +37,13 @@ juju debug-log –include <unit>
   If Vault service not running then 
   
       -unseal the unit again followed by vault conf
+      
+      
+      
+ not yet solved errors     
+  ```
+  working on:
+  Ceph broker request incomplete
+  No block devices detected using current configuration
+```
   
