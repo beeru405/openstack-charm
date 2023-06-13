@@ -1,7 +1,9 @@
 # openstack-charm
 
 #errors
+
 Failed to connect to MySQL
+
 Cluster is inaccessible from this instance. Please check logs for details
 ```
 juju run-action --wait mysql-innodb-cluster/leader reboot-cluster-from-complete-outage
