@@ -6,10 +6,10 @@ juju deploy -n 4 --channel quincy/stable --config ceph-osd.yaml --constraints ta
 juju deploy -n 3 --to 1,2,3 --channel zed/stable --config nova-compute.yaml nova-compute
 
 #my-sql-innodb
-juju deploy -n 3 --channel 8.0/stable mysql-innodb-cluster
+juju deploy -n 3 --to 0,1,2 --channel 8.0/stable mysql-innodb-cluster
 
 #Vault
-juju deploy --channel 1.8/stable vault
+juju deploy --to 3 --channel 1.8/stable vault
 
 juju deploy --channel 8.0/stable mysql-router vault-mysql-router
 juju add-relation vault-mysql-router:db-router mysql-innodb-cluster:db-router
