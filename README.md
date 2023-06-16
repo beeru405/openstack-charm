@@ -46,4 +46,9 @@ juju debug-log –include <unit>
   Ceph broker request incomplete
   No block devices detected using current configuration
 ```
-  
+
+
+ For Remove application
+ ```
+juju remove-application --force <aaplication_name>
+```
