@@ -52,3 +52,10 @@ juju debug-log –include <unit>
  ```
 juju remove-application --force <aaplication_name>
 ```
+
+
+
+some important links
+```
+https://docs.openstack.org/charm-guide/rocky/openstack-on-lxd.html
+```
