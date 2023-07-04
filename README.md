@@ -59,5 +59,5 @@ some important links
 ```
 https://docs.openstack.org/charm-guide/rocky/openstack-on-lxd.html
 https://docs.openstack.org/charm-guide/victoria/openstack-on-lxd.html
-
+https://paulylinux.wordpress.com/2018/02/28/configure-lxd-for-openstack/
 ```
